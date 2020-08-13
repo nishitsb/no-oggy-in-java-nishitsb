@@ -8,7 +8,7 @@ public class Main {
 
         Iterator it = names.iterator();
                 while(it.hasNext()){
-                    String str = it.next();
+                    String str = (String)it.next();
                     if(str.startsWith("oggy")){
                         it.remove();
                     }
